@@ -1,0 +1,19 @@
+@import 'vendors/bootstrap4.4.1/scss/bootstrap.scss';
+
+@import 'abstract/variables';
+@import 'abstract/mixin';
+
+@import 'base/reset';
+@import 'base/base';
+
+@import 'layout/navbar';
+@import 'layout/hero';
+@import 'layout/contenido';
+
+@import 'components/buttons';
+@import 'components/cards';
+@import 'components/media';
+
+//pages
+
+//themes
