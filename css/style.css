@@ -9878,7 +9878,28 @@ h3 {
 * {
   padding: 0;
   margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 400;
+  color: #000;
   box-sizing: border-box;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.col-sm-6, .col-md-3, .col-lg-3 {
+  /* padding-right: 0; */
+  padding-left: 0;
+}
+
+.navbar {
+  padding: 0 10%;
+  max-width: 100%;
 }
 
 a.navbar__logo {
@@ -9903,14 +9924,89 @@ i {
   padding: 10%;
 }
 
+.hero__content {
+  padding: 1rem 10%;
+  max-width: 100%;
+  border: 1px solid #DCE0D9;
+}
+
+.media.col {
+  padding-left: 0;
+}
+
+.contenido {
+  max-width: 100%;
+  padding: 3% 10%;
+}
+.contenido h2 {
+  font-weight: 500;
+}
+.contenido__videos {
+  margin-top: 3%;
+}
+.contenido__card_img {
+  height: 48%;
+}
+
 button.navbar-toggler {
   background-image: url('data:image/svg+xml;utf8,<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>');
   padding: 0;
   font-size: 1rem;
 }
 
+.hero__botones {
+  color: #FFF;
+}
+.hero__botones_mensaje {
+  background-color: #92DCE5;
+  color: #FFF;
+}
+.hero__botones_mensaje:hover {
+  background-color: #60aab3;
+  color: #FFF;
+}
+.hero__botones_seguir {
+  background-color: #EF6461;
+  color: #FFF;
+}
+.hero__botones_seguir:hover {
+  background-color: #b73237;
+  color: #FFF;
+}
+
+.card {
+  border: none;
+}
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+.card .card-body {
+  padding: 0;
+}
+.card .card-body h5 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 0.75rem;
+}
+.card .card-body p {
+  font-size: 1.3125rem;
+  font-weight: 400;
+}
+
 .hero .media img {
   max-width: 80px;
+}
+
+.hero .media .media-body h5 {
+  font-size: 1.6875rem;
+  font-weight: 700;
+}
+
+.hero .media .media-body p {
+  font-size: 1.1875rem;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=style.css.map */

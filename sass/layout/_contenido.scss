@@ -1,0 +1,16 @@
+.contenido {
+  max-width: 100%;
+  padding: 3% 10%;
+
+  & h2 {
+    font-weight: $medium;
+  }
+
+  &__videos {
+    margin-top: 3%;
+  }
+
+  &__card_img {
+    height: 48%;
+  }
+}
