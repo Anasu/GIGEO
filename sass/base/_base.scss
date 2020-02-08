@@ -1,0 +1,16 @@
+body {
+  font-family: $tipo-base;
+  font-size: $normal;
+  color: $negro;
+  box-sizing: border-box;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.col-sm-6, .col-md-3, .col-lg-3 {
+  /* padding-right: 0; */
+  padding-left: 0;
+}
