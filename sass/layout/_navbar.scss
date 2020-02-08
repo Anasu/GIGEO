@@ -1,0 +1,14 @@
+a.navbar__logo {
+  text-decoration: none;
+  color: $black;
+  @include relative-converter(font-size, rem, $font-size-logo, 16);
+
+  & sup {
+    @include relative-converter(font-size, rem, $font-size-sup, 16);
+    top: -2rem;
+  }
+}
+
+i {
+  padding: 3%;
+}
