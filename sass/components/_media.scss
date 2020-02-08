@@ -2,5 +2,13 @@
   max-width: 80px;
 }
 
+.hero .media .media-body h5{
+  @include relative-converter(font-size, rem, $font-size-name, 16);
+  font-weight: $bold;
+}
 
+.hero .media .media-body p{
+  @include relative-converter(font-size, rem, $font-size-follow, 16);
+  font-weight: $normal;
+}
 

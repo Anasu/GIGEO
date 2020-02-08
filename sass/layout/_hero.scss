@@ -5,3 +5,13 @@
   background-size: cover;
   padding: 10%;
 }
+
+.hero__content {
+  padding: 1rem 10%;
+  max-width: 100%;
+  border: 1px solid $gris;
+}
+
+.media.col {
+  padding-left: 0;
+}

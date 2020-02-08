@@ -3,4 +3,29 @@ button.navbar-toggler {
   padding: 0;
   font-size: 1rem;
 }
-//poto
+
+.hero__botones{
+  color: $blanco;
+  
+  &_mensaje {
+    background-color: $celeste;
+    color: $blanco;
+
+    &:hover{
+      background-color: $azul;
+      color: $blanco;
+    }
+  }
+
+  &_seguir {
+    background-color: $rojo;
+    color: $blanco;
+
+    &:hover{
+      background-color: $rojo-oscuro;
+      color: $blanco;
+    }
+  }
+}
+
+
